@@ -1,10 +1,12 @@
 <section id="portfolio" class="portfolio position-relative bg-primary">
     <div class="container position-relative">
         <div class="row">
-            <div class="col-12"><small class="fs-7 d-block text-warning">Product Docs</small></div>
+            <div class="col-12">
+                <small class="fs-7 d-block text-warning">Fitur Kami</small>
+            </div>
             <div class="col-12 d-xxl-flex d-xl-flex d-lg-flex d-md-flex d-sm-block d-block align-items-center justify-content-xxl-between justify-content-xl-between justify-content-lg-between justify-content-md-between justify-content-sm-between justify-content-sm-center">
-                <h2 class="fs-3 text-white mb-0">Beautiful Docs<br> for your APIs.</h2>
-                <a href="#pricing" class="btn btn-warning btn-hover-secondery section-btn">Open Portfolio</a>
+                <h2 class="fs-3 text-white mb-0">Fitur-Fitur<br> Lainnya.</h2>
+                <a href="#pricing" class="btn btn-warning btn-hover-secondery section-btn">Claim Voucher</a>
             </div>
         </div>
         <div class="row d-flex flex-wrap justify-content-center step-row">
@@ -23,13 +25,14 @@
             @endforeach
         </div>
     </div>
+
     <div class="container position-relative">
         <div class="portfolio-wrap">
             <div class="owl-carousel owl-theme portfolio-slider">
-                @for($i = 1; $i <= 5; $i++)
+                @for($i = 1; $i <= 10; $i++)
                 <div class="item">
                     <a href="#">
-                        <img src="{{ asset('assets/images/portfolio/Portfolio.jpg') }}" class="w-100" alt="Portfolio {{ $i }}">
+                        <img src="{{ asset('assets/images/portfolio/Iphone-' . $i . '.webp') }}" class="w-50" alt="Portfolio {{ $i }}">
                     </a>
                 </div>
                 @endfor
