@@ -29,7 +29,7 @@
     <div class="container position-relative">
         <div class="portfolio-wrap">
             <div class="owl-carousel owl-theme portfolio-slider">
-                @for($i = 1; $i <= 10; $i++)
+                @for($i = 1; $i <= 12; $i++)
                 <div class="item">
                     <a href="#">
                         <img src="{{ asset('assets/images/portfolio/Iphone-' . $i . '.webp') }}" class="w-50" alt="Portfolio {{ $i }}">
