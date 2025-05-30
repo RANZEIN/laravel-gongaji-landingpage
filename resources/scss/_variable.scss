@@ -6,24 +6,24 @@ $font-family-sans-serif:'Manrope', sans-serif;
 
 // scss-docs-start gray-color-variables
 $white:    #fff !default;
-$gray-100: #F1F1F5 !default;   
-$gray-200: #efefef !default; 
+$gray-100: #F1F1F5 !default;
+$gray-200: #efefef !default;
 $gray-300: #8C8C8C !default;
 $gray-400: #7A8496 !default;  //
-$gray-500: #edecf9 !default; 
-$gray-600: #8A8A8A !default; 
+$gray-500: #edecf9 !default;
+$gray-600: #8A8A8A !default;
 $gray-700: #f2f2f8 !default;
-$gray-800: #7A8496 !default;   
-$gray-900: #14141C !default; 
+$gray-800: #7A8496 !default;
+$gray-900: #14141C !default;
 $black:    #000 !default;
 $footer-link: #68657C !default;
 $scrollspy: #7593e8 !default;
 
 // scss-docs-start theme-color-variables
-$primary:       #1642B9 !default; 
-$secondary:     #061434 !default; 
-$info:    #2776fc !default; 
-$light:    #F9F9FB !default; 
+$primary:       #1642B9 !default;
+$secondary:     #061434 !default;
+$info:    #2776fc !default;
+$light:    #F9F9FB !default;
 $warning:    #EE7B11 !default;
 $success:    #37A05B !default;
 // scss-docs-end theme-color-variables
@@ -39,18 +39,18 @@ $theme-colors: (
 
 
 // scss-docs-start color-variables
-$blue:    #001C68 !default; 
+$blue:    #001C68 !default;
 $blue-200:  #95A5CE !default; //
 $blue-300:  #92ACF2 !default;//
-$indigo:  #5243C2 !default; 
+$indigo:  #5243C2 !default;
 $purple:  #611F69 !default;
 $pink:    #d63384 !default;
-$red:     #DD3131 !default; 
+$red:     #DD3131 !default;
 $orange:  #fd7e14 !default;
 $orange-light:  #feefea !default;
 $yellow:  #fec572 !default; //
 $yellow-300:#FFF4CE !default;//
-$green:   #6B9F36 !default;  
+$green:   #6B9F36 !default;
 $teal:    #feefea !default;
 $cyan:    #FDF0EA !default;
 
@@ -222,9 +222,9 @@ $table-border-color:          transparent !default;
 $card-spacer-y:                     55px;
 $card-spacer-x:                     60px;
 $card-border-radius:                $border-radius-xxl;
-$card-border-color:                 #2753c9;
+$card-border-color:                 #ee7b11;
 
-//toggle switch       
+//toggle switch
 $form-check-input-checked-bg-color:     #FFD44D;
 
 //accordion

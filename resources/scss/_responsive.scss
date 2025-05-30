@@ -33,7 +33,7 @@
 }
 
 /*max-width-1024px*/
-@include media-breakpoint-down(xl) 
+@include media-breakpoint-down(xl)
 {
     .main-header{
         .offcanvas{
@@ -41,9 +41,9 @@
                 .nav-link{
                     padding: 0 0 20px;
                 }
-            } 
-        } 
-    } 
+            }
+        }
+    }
     .hero-banner{
         .left-hero-color{
             padding-top: 150px;
@@ -54,7 +54,7 @@
         .right-hero-color{
             padding-top: 100px;
         }
-    } 
+    }
     .service,.our-service,.portfolio,.pricing,.faq {
         padding: 100px 0;
     }
@@ -63,11 +63,11 @@
             position: unset;
         }
     }
-    .card-body{  
+    .card-body{
         padding: 30px;
     }
     .price-plan{
-        .card-body{  
+        .card-body{
             padding: 40px 15px 30px;
         }
     }
@@ -79,7 +79,7 @@
         .subscribe
         {
             .input-group{
-                .form-control{             
+                .form-control{
                     width: 100%;
                 }
                 button{
@@ -88,12 +88,12 @@
                 }
             }
         }
-    } 
+    }
 }
 
 
 /*max-width-991.98px*/
-@include media-breakpoint-down(lg) 
+@include media-breakpoint-down(lg)
 {
     .hero-banner{
         .left-hero-color{
@@ -104,7 +104,7 @@
                 padding: 20px 0;
             }
         }
-    } 
+    }
     .service,.our-service,.portfolio,.pricing,.faq {
         padding: 80px 0;
     }
@@ -128,14 +128,14 @@
                     .item{
                         margin: 0 -35px 0 -52px;
                     }
-                } 
+                }
             }
         }
     }
     .price-plan{
         .col-xxl-4:last-child{
             margin-top: 30px;
-        }   
+        }
     }
     .portfolio-slider{
         padding: 0 15px;
@@ -164,7 +164,7 @@
         h5{
             padding-bottom: 20px;
         }
-    } 
+    }
 
 }
 
@@ -258,11 +258,11 @@
                 ul li {
                     padding-bottom: 5px;
                 }
-            } 
+            }
             h2 .fs-2{font-size: 40px !important;}
         }
     }
-    
+
     .faq{
         .accordion-block{
             .accordion-button{
@@ -316,7 +316,7 @@
             li{
                 a{
                     padding-bottom: 15px;
-                }           
+                }
             }
         }
         .row{
@@ -334,7 +334,7 @@
             .owl-stage{
                 left: 35px;
             }
-        } 
+        }
     }
 }
 
