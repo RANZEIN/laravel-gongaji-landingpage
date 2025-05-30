@@ -2,10 +2,14 @@
     <div class="container position-relative">
         <img src="{{ asset('assets/images/service/dot-shape.png') }}" class="shape position-absolute" alt="Decoration">
         <div class="row">
-            <div class="col-12"><small class="fs-7 d-block">Working Process</small></div>
+            <div class="col-12"><small class="fs-7 d-block">Tentang Applikasi</small></div>
             <div class="col-12 d-xxl-flex d-xl-flex d-lg-flex d-md-flex d-sm-block d-block align-items-center justify-content-xxl-between justify-content-xl-between justify-content-lg-between justify-content-md-between justify-content-sm-between justify-content-sm-center">
-                <h2 class="fs-2 text-black mb-0">Our Featured Service<br> that We Provide</h2>
-                <a href="#portfolio" class="btn btn-warning btn-hover-secondery section-btn">All Services</a>
+               <h2 class="fs-2 text-black mb-0">
+                    Solusi Cerdas Belajar Qur’an?<br>
+                    <span class="text-primary">Go Ngaji</span>
+                    Jawabannya!
+                </h2>
+                <a href="#portfolio" class="btn btn-warning btn-hover-secondery section-btn">Fitur Lainnya</a>
             </div>
         </div>
         <div class="row d-flex flex-wrap justify-content-center step-row">
