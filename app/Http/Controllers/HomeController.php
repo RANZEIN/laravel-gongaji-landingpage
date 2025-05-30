@@ -48,26 +48,26 @@ class HomeController extends Controller
         return redirect()->back()->with('success', 'Thank you for subscribing!');
     }
 
-    private function getServices()
+   private function getServices()
     {
         return [
             [
-                'icon' => 'ti-download',
-                'step' => 'Step 1',
-                'title' => 'Download our App',
-                'description' => 'There are many variations of pass for ages of oremsum.'
+                'icon' => 'ti-book',
+                'step' => 'Langkah 1',
+                'title' => 'Mushaf Lengkap',
+                'description' => 'Akses berbagai mushaf terpercaya dengan tajwid dan terjemahan lengkap.'
             ],
             [
-                'icon' => 'ti-user',
-                'step' => 'Step 2',
-                'title' => 'Create a free Account',
-                'description' => 'There are many variations of pass for ages of oremsum.'
+                'icon' => 'ti-user-check',
+                'step' => 'Langkah 2',
+                'title' => 'Ustadz Profesional',
+                'description' => 'Pembelajaran privat atau kelompok, online maupun offline, dengan guru ahli.'
             ],
             [
-                'icon' => 'ti-gift',
-                'step' => 'Step 3',
-                'title' => 'Now Start your Journey',
-                'description' => 'There are many variations of pass for ages of oremsum.'
+                'icon' => 'ti-mouse',
+                'step' => 'Langkah 3',
+                'title' => 'Pembelajaran Interaktif',
+                'description' => 'Menggunakan teknologi Virtual Reality untuk pengalaman belajar inovatif.'
             ]
         ];
     }
@@ -93,51 +93,54 @@ class HomeController extends Controller
         ];
     }
 
-    private function getPricingPlans()
-    {
-        return [
-            [
-                'name' => 'Personal',
-                'price' => 0,
-                'period' => 'Free',
-                'description' => 'For individuals looking for a simple CRM solution',
-                'features' => [
-                    'Basic CRM features',
-                    'Unlimited Personal Pipelines',
-                    'Email Power Tools'
-                ],
-                'popular' => false
-            ],
-            [
-                'name' => 'Professional',
-                'price' => 49,
-                'period' => 'Monthly',
-                'description' => 'For individuals looking for a simple CRM solution',
-                'features' => [
-                    'Basic CRM features',
-                    'Unlimited Personal Pipelines',
-                    'Email Power Tools',
-                    'Unlimited Shared Pipelines'
-                ],
-                'popular' => true
-            ],
-            [
-                'name' => 'Enterprise',
-                'price' => 99,
-                'period' => 'Monthly',
-                'description' => 'For individuals looking for a simple CRM solution',
-                'features' => [
-                    'Basic CRM features',
-                    'Unlimited Personal Pipelines',
-                    'Email Power Tools',
-                    'Unlimited Shared Pipelines',
-                    'Full API Access'
-                ],
-                'popular' => false
-            ]
-        ];
-    }
+   public function showPricing()
+{
+    $plans = $this->getPricingPlans();
+    return view('pricing', compact('plans'));
+}
 
+private function getPricingPlans()
+{
+    return [
+        [
+            'name' => 'Claim Voucher',
+            'price' => 0,
+            'yearly_price' => 0,
+            'period' => 'Gratis',
+            'description' => 'Punya Mushaf Syaamil Qur\'an?',
+            'features' => [
+                'Konten Islami eksklusif',
+                'Akses fitur Qur\'an Library',
+            ],
+            'popular' => false
+        ],
+        [
+            'name' => 'Premium',
+            'price' => 64000,
+            'yearly_price' => 649000,
+            'period' => 'Bulanan',
+            'description' => 'Langganan Akses Premium',
+            'features' => [
+                'Konten Islami Eksklusif',
+                'Akses fitur Qur\'an Library',
+            ],
+            'popular' => true
+        ],
+        [
+            'name' => 'Claim Voucher',
+            'price' => 0,
+            'yearly_price' => 0,
+            'period' => 'Gratis',
+            'description' => 'Punya Mushaf Syaamil Haji dan Umrah?',
+            'features' => [
+                'Konten Islami Eksklusif',
+                'Akses fitur Qur\'an Library',
+                'Akses Virtual Reality Haji Umrah Selamanya',
+            ],
+            'popular' => false
+        ]
+    ];
+}
     private function getFaqs()
     {
         return [
