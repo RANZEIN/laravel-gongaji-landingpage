@@ -15,17 +15,27 @@
                         <a class="nav-link text-capitalize" aria-current="page" href="{{ route('home') }}">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-capitalize" href="#service">Fitur</a>
+                        <a class="nav-link text-capitalize" href="#service">Tentang Applikasi</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="#portfolio">Fitur</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-capitalize" href="#portfolio">Kemitraan</a>
+                        <a class="nav-link text-capitalize" href="#pricing">Subscription</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-capitalize" href="#pricing">Daftar Mitra</a>
+                    <a class="nav-link text-capitalize" href="https://www.canva.com/design/DAGHzNJgMZo/bDx9jYOY4OyZri2NbgjMmA/edit" target="_blank" rel="noopener noreferrer">
+                        Kemitraan
+                    </a>
                     </li>
                     <li class="nav-item">
+                    <a class="nav-link text-capitalize" href="https://forms.gle/6UJxFKAgHvHgNfCk7" target="_blank" rel="noopener noreferrer">
+                        Daftar Mitra
+                    </a>
+                    </li>
+                    {{-- <li class="nav-item">
                         <a class="nav-link text-capitalize" href="#contact">Kontak</a>
-                    </li>
+                    </li> --}}
                 </ul>
                 <div class="d-flex align-items-center">
                     <div class="input-group search">
