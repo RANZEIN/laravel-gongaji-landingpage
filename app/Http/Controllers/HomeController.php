@@ -53,19 +53,19 @@ class HomeController extends Controller
         return [
             [
                 'icon' => 'ti-book',
-                'step' => 'Langkah 1',
+                'step' => '',
                 'title' => 'Mushaf Lengkap',
                 'description' => 'Akses berbagai mushaf terpercaya dengan tajwid dan terjemahan lengkap.'
             ],
             [
                 'icon' => 'ti-user-check',
-                'step' => 'Langkah 2',
+                'step' => '',
                 'title' => 'Ustadz Profesional',
                 'description' => 'Pembelajaran privat atau kelompok, online maupun offline, dengan guru ahli.'
             ],
             [
                 'icon' => 'ti-mouse',
-                'step' => 'Langkah 3',
+                'step' => '',
                 'title' => 'Pembelajaran Interaktif',
                 'description' => 'Menggunakan teknologi Virtual Reality untuk pengalaman belajar inovatif.'
             ]
