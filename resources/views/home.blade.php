@@ -5,11 +5,14 @@
 @section('content')
     @include('sections.hero')
     @include('sections.service', ['services' => $services])
+    @include('sections.video'),
     @include('sections.our-service')
     @include('sections.portfolio', ['features' => $portfolioFeatures])
     @include('sections.pricing', ['plans' => $pricingPlans])
+    @include('sections.feature'),
     @include('sections.faq', ['faqs' => $faqs])
     @include('sections.contact', ['testimonials' => $testimonials, 'companies' => $trustedCompanies])
+
 @endsection
 
 @push('scripts')
