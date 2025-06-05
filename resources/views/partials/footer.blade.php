@@ -9,7 +9,7 @@
                     <p class="blue-light mb-0 fs-7 fw-500">Gongaji is a simple, elegant, and secure way to build your business and project portfolio.</p>
                     <div class="callus text-white fw-500 fs-7">
                         1989 Don Jackson Lane
-                        <div class="blue-light">Call us: <a href="tel:808-956-9599" class="text-warning fw-500 fs-7 text-decoration-none">808-956-9599</a></div>
+                        <div class="blue-light">Call us: <a href="tel:+62 851-7993-8395" class="text-warning fw-500 fs-7 text-decoration-none">+62 851-7993-8395</a></div>
                     </div>
                 </div>
             </div>
