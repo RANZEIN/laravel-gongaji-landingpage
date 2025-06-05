@@ -38,12 +38,12 @@
                     </li> --}}
                 </ul>
                 <div class="d-flex align-items-center">
-                    <div class="input-group search">
+                    {{-- <div class="input-group search">
                         <button class="btn border-0 p-0" type="button" id="button-addon1">
                             <i class="ti ti-search text-white"></i>
                         </button>
                         <input type="text" class="form-control border-0 bg-transparent ps-2" placeholder="search" aria-label="Search" aria-describedby="button-addon1">
-                    </div>
+                    </div> --}}
                     <a class="btn btn-warning btn-hover-secondery text-capitalize" href="#contact">register</a>
                 </div>
             </div>
