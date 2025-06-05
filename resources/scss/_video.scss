@@ -1,0 +1,110 @@
+// Simple fallback styles if inline styles don't work
+.video-hero {
+    min-height: 100vh !important;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('https://images.unsplash.com/photo-1592326871020-04f58c1a52f3?q=80&w=3165&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    display: flex !important;
+    align-items: center !important;
+    position: relative !important;
+    overflow: hidden !important;
+
+    h1, p {
+        color: white !important;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.8) !important;
+    }
+
+    .play-button {
+        width: 80px !important;
+        height: 80px !important;
+        background: #28a745 !important;
+        border: none !important;
+        border-radius: 50% !important;
+        color: white !important;
+        font-size: 1.5rem !important;
+        position: relative !important;
+        z-index: 20 !important;
+
+        &:hover {
+            transform: scale(1.1) !important;
+            background: #218838 !important;
+        }
+
+        i {
+            color: white !important;
+            margin-left: 3px !important;
+        }
+    }
+
+    .pulse-ring {
+        position: absolute !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        width: 80px !important;
+        height: 80px !important;
+        border: 3px solid rgba(40,167,69,0.7) !important;
+        border-radius: 50% !important;
+        animation: pulse 2s infinite !important;
+        z-index: 10 !important;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(1) !important;
+        opacity: 1 !important;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(2) !important;
+        opacity: 0 !important;
+    }
+}
+
+.features-cta, .bottom-cta {
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+
+    h2, p {
+        color: white !important;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.8) !important;
+    }
+}
+
+.features-cards {
+    background-color: #f8f9fa !important;
+    margin-top: -50px !important;
+    position: relative !important;
+    z-index: 15 !important;
+
+    .feature-card {
+        background: white !important;
+        border-radius: 15px !important;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1) !important;
+        transition: all 0.3s ease !important;
+
+        &:hover {
+            transform: translateY(-10px) !important;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.15) !important;
+        }
+
+        .icon-wrapper {
+            background: #28a745 !important;
+            color: white !important;
+            border-radius: 50% !important;
+
+            &:hover {
+                transform: scale(1.1) !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .video-hero, .features-cta, .bottom-cta {
+        background-attachment: scroll !important;
+    }
+}
